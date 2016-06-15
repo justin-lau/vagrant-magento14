@@ -1,0 +1,14 @@
+apache2:
+  # Path to the website to be served
+  www_path: ./data
+
+mysql:
+  root_password: rootpassword
+  database: default
+  username: root
+  password: root
+
+  # a gzipped sql file to be imported
+  import_from_file: ./default.sql.gz
+  # the directory that contains the above sql file
+  import_from_dir: ./
